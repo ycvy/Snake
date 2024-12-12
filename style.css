@@ -1,0 +1,26 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    background: #f0f0f0;
+}
+
+.game-info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.score, .highscore, .level {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+}
+
+.level {
+    color: #9C27B0;
+}
